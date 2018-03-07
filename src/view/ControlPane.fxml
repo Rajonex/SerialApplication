@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControlPaneController">
+   <children>
+      <ComboBox fx:id="comboBox" prefWidth="150.0" HBox.hgrow="NEVER" />
+      <Button fx:id="connectButton" mnemonicParsing="false" text="Połącz" HBox.hgrow="NEVER" />
+      <Button fx:id="disconnectButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Rozłącz" HBox.hgrow="NEVER" />
+   </children>
+</HBox>

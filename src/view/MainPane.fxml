@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainPaneController">
+   <children>
+      <HBox VBox.vgrow="ALWAYS">
+         <children>
+            <fx:include fx:id="parameterPane" prefHeight="200.0" prefWidth="200.0" source="ParameterPane.fxml" />
+            <fx:include fx:id="contentPane" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="400.0" source="ContentPane.fxml" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <fx:include fx:id="controlPane" source="ControlPane.fxml" />
+   </children>
+</VBox>
